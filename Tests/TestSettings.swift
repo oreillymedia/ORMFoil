@@ -97,4 +97,10 @@ final class TestSettings: NSObject {
 
     @FoilDefaultStorageOptional(key: "user", userDefaults: store)
     var user: User?
+
+    @FoilStaticStorage(key: "test.key", userDefaults: store)
+    var testKey: Int = 12
+
+    @FoilStaticStorageOptional(key: "maybe.key", userDefaults: store)
+    var maybeKey: Int?
 }

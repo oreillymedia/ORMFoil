@@ -18,6 +18,8 @@
 		0BF5FD9025C14A7D0003B078 /* FoilDefaultStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF5FD8F25C14A7D0003B078 /* FoilDefaultStorage.swift */; };
 		0BF5FD9625C14A960003B078 /* UserDefaultsSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF5FD9525C14A960003B078 /* UserDefaultsSerializable.swift */; };
 		1CC00F2428DAB1FC00EC2C63 /* ObserverTrampoline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC00F2328DAB1FC00EC2C63 /* ObserverTrampoline.swift */; };
+		E487D1472BAE0C9700F4FF9D /* FoilStaticStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E487D1462BAE0C9700F4FF9D /* FoilStaticStorage.swift */; };
+		E487D1492BAE0CA400F4FF9D /* FoilStaticStorageOptional.swift in Sources */ = {isa = PBXBuildFile; fileRef = E487D1482BAE0CA400F4FF9D /* FoilStaticStorageOptional.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		0BF5FD8F25C14A7D0003B078 /* FoilDefaultStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoilDefaultStorage.swift; sourceTree = "<group>"; };
 		0BF5FD9525C14A960003B078 /* UserDefaultsSerializable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsSerializable.swift; sourceTree = "<group>"; };
 		1CC00F2328DAB1FC00EC2C63 /* ObserverTrampoline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObserverTrampoline.swift; sourceTree = "<group>"; };
+		E487D1462BAE0C9700F4FF9D /* FoilStaticStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoilStaticStorage.swift; sourceTree = "<group>"; };
+		E487D1482BAE0CA400F4FF9D /* FoilStaticStorageOptional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoilStaticStorageOptional.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +91,9 @@
 			isa = PBXGroup;
 			children = (
 				0BF5FD8F25C14A7D0003B078 /* FoilDefaultStorage.swift */,
+				E487D1462BAE0C9700F4FF9D /* FoilStaticStorage.swift */,
 				0BEEA2B12603F8390035387F /* FoilDefaultStorageOptional.swift */,
+				E487D1482BAE0CA400F4FF9D /* FoilStaticStorageOptional.swift */,
 				1CC00F2328DAB1FC00EC2C63 /* ObserverTrampoline.swift */,
 				0B315D1E2B4E051C000F5034 /* PrivacyInfo.xcprivacy */,
 				0BF54A9C25BF58B1008484F8 /* UserDefaults+Extensions.swift */,
@@ -244,8 +250,10 @@
 				0BF5FD9625C14A960003B078 /* UserDefaultsSerializable.swift in Sources */,
 				1CC00F2428DAB1FC00EC2C63 /* ObserverTrampoline.swift in Sources */,
 				0BEEA2B22603F8390035387F /* FoilDefaultStorageOptional.swift in Sources */,
+				E487D1492BAE0CA400F4FF9D /* FoilStaticStorageOptional.swift in Sources */,
 				0BF5FD9025C14A7D0003B078 /* FoilDefaultStorage.swift in Sources */,
 				0BF54A9D25BF58B1008484F8 /* UserDefaults+Extensions.swift in Sources */,
+				E487D1472BAE0C9700F4FF9D /* FoilStaticStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -172,4 +172,16 @@ final class IntegrationTests: XCTestCase {
         self.settings.user = newValue
         XCTAssertEqual(self.settings.user, newValue)
     }
+
+    func test_Integration_Static() {
+        let defaultValue = self.settings.testKey
+        XCTAssertEqual(defaultValue, 12)
+
+        self.settings.testKey = 100
+        XCTAssertEqual(self.settings.testKey, 100)
+
+        XCTAssertNil(self.settings.maybeKey)
+        self.settings.maybeKey = 5
+        XCTAssertEqual(self.settings.maybeKey, 5)
+    }
 }
